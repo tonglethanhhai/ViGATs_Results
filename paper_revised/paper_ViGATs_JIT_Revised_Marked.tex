@@ -110,10 +110,10 @@ The primary contributions of this work are summarized as follows:
 \label{sec:related-work}
 
 \subsection{CNN-Based Plant Disease Diagnosis}
-Deep convolutional networks have long dominated automated plant disease recognition \citep{mohanty2016using}. Widely adopted architectures including VGG \citep{ferentinos2018deep}, ResNet \citep{he2016deep, sethy2020deep, singh2024comprehensive}, EfficientNet \citep{tan2019efficientnet}, and MobileNet \citep{chen2021identification, too2019comparative} have achieved classification accuracies surpassing 97\% on laboratory benchmarks, even under resource-constrained conditions \citep{batool2025compact}. Nevertheless, standard CNNs remain fundamentally constrained by the inductive bias of localized grid convolutions \citep{lecun1998gradient}, creating difficulties when aggregating spatially disconnected, fine-grained lesion symptoms under natural field conditions. Furthermore, most CNN approaches depend heavily on ImageNet pre-trained representations.
+Deep convolutional networks have long dominated automated plant disease recognition \citep{mohanty2016using}. Widely adopted architectures including VGG \citep{ferentinos2018deep}, ResNet \citep{he2016deep, sethy2020deep, singh2024comprehensive}, EfficientNet \citep{tan2019efficientnet}, and MobileNet \citep{chen2021identification, too2019comparative} have achieved classification accuracies surpassing 97\% on laboratory benchmarks, even under resource-constrained conditions \citep{batool2025compact}. \textcolor{blue}{Furthermore, robust deep neural networks have been tailored for complex paddy field scenarios \citep{mookkandi2025robustdnn}, and local descriptor-based approaches have shown efficacy \citep{mookkandi2026robust}. Broadly, recent reviews emphasize the critical need to resolve structural bottlenecks in AI-driven agricultural disease identification \citep{nath2026bottleneck}.} Nevertheless, standard CNNs remain fundamentally constrained by the inductive bias of localized grid convolutions \citep{lecun1998gradient}, creating difficulties when aggregating spatially disconnected, fine-grained lesion symptoms under natural field conditions. Furthermore, most CNN approaches depend heavily on ImageNet pre-trained representations.
 
 \subsection{Vision Transformers}
-Vision Transformers (ViTs) \citep{dosovitskiy2020image} overcome local spatial limitations by employing global self-attention across image patch tokens. Recent variants such as DeiT \citep{touvron2021training}, Swin Transformer \citep{liu2021swin}, and hybrid CNN-ViT architectures \citep{yu2025stcfi} have improved efficiency and multi-scale feature extraction. However, ViTs require massive training corpora and lack spatial inductive biases, making them prone to severe optimization instability and over-fitting when trained from scratch on agricultural datasets at low resolutions \citep{borhani2022deep}.
+Vision Transformers (ViTs) \citep{dosovitskiy2020image} overcome local spatial limitations by employing global self-attention across image patch tokens. Recent variants such as DeiT \citep{touvron2021training}, Swin Transformer \citep{liu2021swin}, and hybrid CNN-ViT architectures \citep{yu2025stcfi} have improved efficiency and multi-scale feature extraction. However, ViTs require massive training corpora and lack spatial inductive biases, making them prone to severe optimization instability and over-fitting when trained from scratch on agricultural datasets at low resolutions \citep{borhani2022deep}. \textcolor{blue}{To mitigate these issues, lightweight and robust Vision Transformer variants have recently been introduced specifically for crop disease classification \citep{mookkandi2025robustvit}.}
 
 \subsection{Vision Graph Neural Networks and Graph Attention}
 Graph Neural Networks (GNNs) formulate images as unstructured, dynamic feature graphs \citep{scarselli2009graph, wu2020comprehensive, zhou2020graph, han2022vision}. Recently, hybrid CNN-GNN frameworks \citep{singla2025denseswingnnnet, surekha2026adjleafgnn} and sparse attention variants such as MobileViG \citep{munir2023mobilevig} and AttentionViG \citep{gedik2025attentionvig} have emerged. Concurrently, Graph Attention Networks (GAT \citep{velickovic2018graph} and GATv2 \citep{brody2022gat}) have demonstrated marked advantages in learning adaptive neighborhood importance. This study bridges the gap by directly integrating an edge-difference multi-head attention mechanism into the isotropic Vision GNN framework, creating an efficient and robust architecture (ViGATs) optimized for botanical pathology diagnosis.
@@ -994,6 +994,18 @@ Zhang, A., Lipton, Z. C., Li, M., \& Smola, A. J. (2023). \emph{Dive into deep l
 
 \bibitem[Zhou et~al.(2020)]{zhou2020graph}
 Zhou, J., Cui, G., Hu, S., Zhang, Z., Yang, C., Liu, Z., Wang, L., Li, C., \& Sun, M. (2020). Graph neural networks: A review of methods and applications. \emph{AI Open}, \emph{1}, 57--81.
+
+\bibitem[Mookkandi \& Nath(2025)]{mookkandi2025robustdnn}
+\textcolor{blue}{Mookkandi, K., \& Nath, M. K. (2025). Robust Deep Neural Network for Classification of Diseases from Paddy Fields. \emph{AgriEngineering}, \emph{7}(7), 0205. \url{https://doi.org/10.3390/agriengineering7070205}.}
+
+\bibitem[Mookkandi et~al.(2025)]{mookkandi2025robustvit}
+\textcolor{blue}{Mookkandi, K., Nath, M. K., Dash, S. S., Mishra, M., \& Blange, R. (2025). A Robust Lightweight Vision Transformer for Classification of Crop Diseases. \emph{AgriEngineering}, \emph{7}(8), 0268. \url{https://doi.org/10.3390/agriengineering7080268}.}
+
+\bibitem[Mookkandi et~al.(2026)]{mookkandi2026robust}
+\textcolor{blue}{Mookkandi, K., Nath, M. K., \& Balakrishnan, K. (2026). Robust method for classification of agricultural crops diseases using LGXP descriptor. \emph{Results in Engineering}. \url{https://doi.org/10.1016/j.rineng.2025.108826}.}
+
+\bibitem[Nath et~al.(2026)]{nath2026bottleneck}
+\textcolor{blue}{Nath, M. K., Mookkandi, K., Balakrishnan, K., Mishra, M., Kavitha, M., \& Mathumathi, M. (2026). Bottleneck of AI driven techniques for identifying indian agricultural diseases: A systematic review and future directives. \emph{Results in Engineering}. \url{https://doi.org/10.1016/j.rineng.2026.111212}.}
 
 \end{thebibliography}
 

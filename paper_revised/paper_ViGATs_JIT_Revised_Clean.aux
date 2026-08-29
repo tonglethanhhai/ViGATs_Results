@@ -1,0 +1,331 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{savary2019global}
+\citation{he2016deep,liu2022convnext}
+\citation{dosovitskiy2020image,liu2021swin}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\newlabel{sec:introduction}{{1}{1}{Introduction}{section.1}{}}
+\citation{han2022vision}
+\citation{li2019deepgcns,han2022vision}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Comparison of three visual representation paradigms: (a) regular grid (CNNs); (b) token sequence (ViTs); and (c) dynamic feature-space graph (ViGATs).}}{2}{figure.1}\protected@file@percent }
+\newlabel{fig:img2graph}{{1}{2}{Comparison of three visual representation paradigms: (a) regular grid (CNNs); (b) token sequence (ViTs); and (c) dynamic feature-space graph (ViGATs)}{figure.1}{}}
+\citation{mohanty2016using}
+\citation{ferentinos2018deep}
+\citation{he2016deep,sethy2020deep,singh2024comprehensive}
+\citation{tan2019efficientnet}
+\citation{chen2021identification,too2019comparative}
+\citation{batool2025compact}
+\citation{lecun1998gradient}
+\citation{dosovitskiy2020image}
+\citation{touvron2021training}
+\citation{liu2021swin}
+\citation{yu2025stcfi}
+\citation{borhani2022deep}
+\citation{scarselli2009graph,wu2020comprehensive,zhou2020graph,han2022vision}
+\citation{singla2025denseswingnnnet,surekha2026adjleafgnn}
+\citation{munir2023mobilevig}
+\citation{gedik2025attentionvig}
+\citation{velickovic2018graph}
+\citation{brody2022gat}
+\citation{han2022vision}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{3}{section.2}\protected@file@percent }
+\newlabel{sec:related-work}{{2}{3}{Related Work}{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}CNN-Based Plant Disease Diagnosis}{3}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Vision Transformers}{3}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Vision Graph Neural Networks and Graph Attention}{3}{subsection.2.3}\protected@file@percent }
+\citation{ioffe2015batch}
+\citation{hendrycks2016gaussian}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Proposed Method: ViGATs}{4}{section.3}\protected@file@percent }
+\newlabel{sec:methodology}{{3}{4}{Proposed Method: ViGATs}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Architecture Overview and Design Rationale}{4}{subsection.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Overview of the ViGATs architecture: (a) the complete processing pipeline; and (b) the proposed GATConv module aggregating neighbor differences using multi-head edge attention.}}{4}{figure.2}\protected@file@percent }
+\newlabel{fig:architecture}{{2}{4}{Overview of the ViGATs architecture: (a) the complete processing pipeline; and (b) the proposed GATConv module aggregating neighbor differences using multi-head edge attention}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Image-to-Graph Transformation}{4}{subsection.3.2}\protected@file@percent }
+\newlabel{sec:image_to_graph}{{3.2}{4}{Image-to-Graph Transformation}{subsection.3.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces ViGATs processing framework from an input image to a dynamic graph, repeated Grapher--FFN blocks, global pooling, and the final classification.}}{4}{figure.3}\protected@file@percent }
+\newlabel{fig:vigats_framework}{{3}{4}{ViGATs processing framework from an input image to a dynamic graph, repeated Grapher--FFN blocks, global pooling, and the final classification}{figure.3}{}}
+\citation{han2022vision}
+\citation{han2022vision}
+\citation{velickovic2018graph}
+\citation{brody2022gat}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Dynamic $K$-NN Graph Construction}{5}{subsection.3.3}\protected@file@percent }
+\newlabel{sec:dynamic_knn}{{3.3}{5}{Dynamic $K$-NN Graph Construction}{subsection.3.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Max-Relative Graph Convolution (MRConv Baseline)}{5}{subsection.3.4}\protected@file@percent }
+\newlabel{sec:mrconv_baseline}{{3.4}{5}{Max-Relative Graph Convolution (MRConv Baseline)}{subsection.3.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Edge-Difference Multi-Head Graph Attention Convolution (Proposed GATConv)}{6}{subsection.3.5}\protected@file@percent }
+\newlabel{sec:gatconv}{{3.5}{6}{Edge-Difference Multi-Head Graph Attention Convolution (Proposed GATConv)}{subsection.3.5}{}}
+\newlabel{eq:diff}{{7}{6}{Edge-Difference Multi-Head Graph Attention Convolution (Proposed GATConv)}{equation.7}{}}
+\newlabel{eq:attn_hidden}{{8}{6}{Edge-Difference Multi-Head Graph Attention Convolution (Proposed GATConv)}{equation.8}{}}
+\newlabel{eq:attn_logit}{{9}{6}{Edge-Difference Multi-Head Graph Attention Convolution (Proposed GATConv)}{equation.9}{}}
+\newlabel{eq:softmax}{{10}{6}{Edge-Difference Multi-Head Graph Attention Convolution (Proposed GATConv)}{equation.10}{}}
+\newlabel{eq:agg}{{11}{6}{Edge-Difference Multi-Head Graph Attention Convolution (Proposed GATConv)}{equation.11}{}}
+\newlabel{eq:output}{{12}{6}{Edge-Difference Multi-Head Graph Attention Convolution (Proposed GATConv)}{equation.12}{}}
+\citation{han2022vision}
+\citation{velickovic2018graph}
+\citation{brody2022gat}
+\citation{brody2022gat}
+\citation{han2022vision}
+\citation{velickovic2018graph}
+\citation{brody2022gat}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Message Passing and Attention Computation in GATConv}}{7}{algorithm.1}\protected@file@percent }
+\newlabel{alg:gatconv}{{1}{7}{Edge-Difference Multi-Head Graph Attention Convolution (Proposed GATConv)}{algorithm.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Structural Comparison of Graph Operators}{7}{subsection.3.6}\protected@file@percent }
+\newlabel{sec:operator_comparison}{{3.6}{7}{Structural Comparison of Graph Operators}{subsection.3.6}{}}
+\citation{he2016deep}
+\citation{liu2022convnext}
+\citation{tan2021efficientnetv2}
+\citation{dosovitskiy2020image}
+\citation{liu2021swin}
+\citation{yu2024mambaout}
+\citation{vasu2023fastvit}
+\citation{wang2024repvit}
+\citation{cai2023efficientvit}
+\citation{han2022vision}
+\citation{velickovic2018graph}
+\citation{brody2022gat}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Network architecture specifications of evaluated Vision GNN models.}}{8}{table.1}\protected@file@percent }
+\newlabel{tab:gnn_architectures}{{1}{8}{Network architecture specifications of evaluated Vision GNN models}{table.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Parameter and Computational Complexity Analysis}{8}{subsection.3.7}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Computational complexity comparison of evaluated models. \textcolor {bestblue}{Blue} = best; \textcolor {secondorange}{orange} = second best.}}{8}{table.2}\protected@file@percent }
+\newlabel{tab:model_complexity}{{2}{8}{Computational complexity comparison of evaluated models. \textcolor {bestblue}{Blue} = best; \textcolor {secondorange}{orange} = second best}{table.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.8}Numerical Walkthrough Workflow}{8}{subsection.3.8}\protected@file@percent }
+\newlabel{sec:numerical_walkthrough}{{3.8}{8}{Numerical Walkthrough Workflow}{subsection.3.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Step-by-step numerical calculation flowchart of ViGATs across five stages ($K=5$ neighbors, $H=4$ attention heads, and $L=8$ Grapher blocks): from raw pixel matrix and spatial patching, through dynamic metric space graph construction, multi-head edge-difference attention aggregation, residual state updating, to global average pooling and final disease classification.}}{9}{figure.4}\protected@file@percent }
+\newlabel{fig:dataflow_pipeline}{{4}{9}{Step-by-step numerical calculation flowchart of ViGATs across five stages ($K=5$ neighbors, $H=4$ attention heads, and $L=8$ Grapher blocks): from raw pixel matrix and spatial patching, through dynamic metric space graph construction, multi-head edge-difference attention aggregation, residual state updating, to global average pooling and final disease classification}{figure.4}{}}
+\citation{hughes2015plantvillage}
+\citation{rice_dataset2022}
+\citation{mduma2023maize}
+\citation{iiitdmj2024dataset}
+\citation{le2015tiny}
+\citation{hughes2015plantvillage}
+\citation{mduma2023maize}
+\citation{rice_dataset2022}
+\citation{tongle2026plantraw}
+\citation{le2015tiny}
+\citation{iiitdmj2024dataset}
+\citation{tongle2026plantraw}
+\citation{hughes2015plantvillage}
+\citation{mwebaze2019icassava}
+\citation{yoseph2023coffee}
+\citation{mishra2023soybean}
+\citation{daphal2022sugarcane}
+\citation{getch2021wheat}
+\citation{negm2021cucumber}
+\citation{prakoso2021chili}
+\citation{prajapati2017rice}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Default hyperparameter configuration of ViGATs.}}{10}{table.3}\protected@file@percent }
+\newlabel{tab:vigats_config}{{3}{10}{Default hyperparameter configuration of ViGATs}{table.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experimental Setup}{10}{section.4}\protected@file@percent }
+\newlabel{sec:experimental-setup}{{4}{10}{Experimental Setup}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Datasets and Acquisition Conditions}{10}{subsection.4.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Summary of the datasets used in the experiments.}}{10}{table.4}\protected@file@percent }
+\newlabel{tab:datasets}{{4}{10}{Summary of the datasets used in the experiments}{table.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}PlantRaw: In-the-Wild Multicrop Benchmark}{10}{subsubsection.4.1.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Composition and sources of the PlantRaw benchmark dataset.}}{10}{table.5}\protected@file@percent }
+\newlabel{tab:plantraw_sources}{{5}{10}{Composition and sources of the PlantRaw benchmark dataset}{table.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Distribution of images and classes in PlantRaw. Colored bars indicate image counts, and hatched bars indicate the corresponding number of classes.}}{11}{figure.5}\protected@file@percent }
+\newlabel{fig:plantraw_composition}{{5}{11}{Distribution of images and classes in PlantRaw. Colored bars indicate image counts, and hatched bars indicate the corresponding number of classes}{figure.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Training Protocol and Experimental Rigor}{11}{subsection.4.2}\protected@file@percent }
+\newlabel{subsec:training-protocol}{{4.2}{11}{Training Protocol and Experimental Rigor}{subsection.4.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Summary of training protocol, data preprocessing, and experimental setup (Part 1).}}{11}{table.6}\protected@file@percent }
+\citation{he2016deep}
+\citation{liu2022convnext}
+\citation{tan2021efficientnetv2}
+\citation{dosovitskiy2020image}
+\citation{liu2021swin}
+\citation{yu2024mambaout}
+\citation{han2022vision}
+\citation{velickovic2018graph}
+\citation{brody2022gat}
+\citation{vasu2023fastvit}
+\citation{wang2024repvit}
+\citation{cai2023efficientvit}
+\citation{sokolova2009systematic}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Summary of training protocol, data preprocessing, and experimental setup (Part 2).}}{12}{table.6}\protected@file@percent }
+\newlabel{tab:training_protocol}{{6}{12}{Summary of training protocol, data preprocessing, and experimental setup (Part 2)}{table.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Benchmark Baselines}{12}{subsection.4.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Benchmark models, roles in experimental design, and evaluation scope. ``Four plant datasets'' denotes PlantVillage, Maize Disease, Rice Leaf V2, and PlantRaw.}}{12}{table.7}\protected@file@percent }
+\newlabel{tab:benchmark_models}{{7}{12}{Benchmark models, roles in experimental design, and evaluation scope. ``Four plant datasets'' denotes PlantVillage, Maize Disease, Rice Leaf V2, and PlantRaw}{table.7}{}}
+\citation{han2022vision}
+\citation{he2016deep}
+\citation{liu2022convnext}
+\citation{tan2021efficientnetv2}
+\citation{dosovitskiy2020image}
+\citation{liu2021swin}
+\citation{yu2024mambaout}
+\citation{han2022vision}
+\citation{velickovic2018graph}
+\citation{brody2022gat}
+\citation{he2016deep}
+\citation{liu2022convnext}
+\citation{tan2021efficientnetv2}
+\citation{dosovitskiy2020image}
+\citation{liu2021swin}
+\citation{yu2024mambaout}
+\citation{han2022vision}
+\citation{velickovic2018graph}
+\citation{brody2022gat}
+\citation{he2016deep}
+\citation{liu2022convnext}
+\citation{tan2021efficientnetv2}
+\citation{dosovitskiy2020image}
+\citation{liu2021swin}
+\citation{yu2024mambaout}
+\citation{han2022vision}
+\citation{velickovic2018graph}
+\citation{brody2022gat}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Evaluation Metrics and Statistical Testing}{13}{subsection.4.4}\protected@file@percent }
+\newlabel{subsec:evaluation_metrics}{{4.4}{13}{Evaluation Metrics and Statistical Testing}{subsection.4.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Experimental Results and Analysis}{13}{section.5}\protected@file@percent }
+\newlabel{sec:results}{{5}{13}{Experimental Results and Analysis}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Ablation Studies}{13}{subsection.5.1}\protected@file@percent }
+\newlabel{sec:ablation}{{5.1}{13}{Ablation Studies}{subsection.5.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Validation performance across different numbers of graph neighbors $K$ on PlantVillage.}}{13}{table.8}\protected@file@percent }
+\newlabel{tab:ablation_k}{{8}{13}{Validation performance across different numbers of graph neighbors $K$ on PlantVillage}{table.8}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Extended one-factor-at-a-time ablation of GATConv on a fixed PlantVillage split. The final ViGATs configuration selected for subsequent experiments is marked by $\dagger $.}}{13}{table.9}\protected@file@percent }
+\newlabel{tab:ablation_ext}{{9}{13}{Extended one-factor-at-a-time ablation of GATConv on a fixed PlantVillage split. The final ViGATs configuration selected for subsequent experiments is marked by $\dagger $}{table.9}{}}
+\citation{he2016deep}
+\citation{liu2022convnext}
+\citation{tan2021efficientnetv2}
+\citation{dosovitskiy2020image}
+\citation{liu2021swin}
+\citation{yu2024mambaout}
+\citation{han2022vision}
+\citation{velickovic2018graph}
+\citation{brody2022gat}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Plant Disease Benchmarks}{14}{subsection.5.2}\protected@file@percent }
+\newlabel{sec:plant_disease_benchmarks}{{5.2}{14}{Plant Disease Benchmarks}{subsection.5.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Classification performance (mean $\pm $ sample standard deviation, \%) on three plant-disease datasets using 5-Fold CV.}}{14}{table.10}\protected@file@percent }
+\newlabel{tab:three_benchmark_datasets}{{10}{14}{Classification performance (mean $\pm $ sample standard deviation, \%) on three plant-disease datasets using 5-Fold CV}{table.10}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.1}PlantRaw: Multicrop Field Benchmark}{14}{subsubsection.5.2.1}\protected@file@percent }
+\citation{he2016deep}
+\citation{liu2022convnext}
+\citation{tan2021efficientnetv2}
+\citation{dosovitskiy2020image}
+\citation{liu2021swin}
+\citation{yu2024mambaout}
+\citation{han2022vision}
+\citation{velickovic2018graph}
+\citation{brody2022gat}
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Classification performance (mean $\pm $ sample standard deviation, \%) on PlantRaw (35 classes, 16,165 images) using 5-Fold CV.}}{15}{table.11}\protected@file@percent }
+\newlabel{tab:plantraw}{{11}{15}{Classification performance (mean $\pm $ sample standard deviation, \%) on PlantRaw (35 classes, 16,165 images) using 5-Fold CV}{table.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Training and validation curves of the evaluated models on PlantRaw.}}{15}{figure.6}\protected@file@percent }
+\newlabel{fig:plantraw_curves}{{6}{15}{Training and validation curves of the evaluated models on PlantRaw}{figure.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Cross-Domain Transfer to Aerial Drone Imagery}{15}{subsection.5.3}\protected@file@percent }
+\newlabel{sec:crossdomain_iiitdmj}{{5.3}{15}{Cross-Domain Transfer to Aerial Drone Imagery}{subsection.5.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces Cross-domain evaluation on IIITDMJ. Models were trained on close-up images and evaluated without fine-tuning on 200 aerial images (50 images per class).}}{16}{table.12}\protected@file@percent }
+\newlabel{tab:crossdomain}{{12}{16}{Cross-domain evaluation on IIITDMJ. Models were trained on close-up images and evaluated without fine-tuning on 200 aerial images (50 images per class)}{table.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Confusion Matrices of benchmark models on two evaluation scenarios: (a) the augmented IIITDMJ validation set and (b) the unseen drone field dataset.}}{16}{figure.7}\protected@file@percent }
+\newlabel{fig:iiitdmj_cm}{{7}{16}{Confusion Matrices of benchmark models on two evaluation scenarios: (a) the augmented IIITDMJ validation set and (b) the unseen drone field dataset}{figure.7}{}}
+\citation{he2016deep}
+\citation{liu2022convnext}
+\citation{tan2021efficientnetv2}
+\citation{dosovitskiy2020image}
+\citation{liu2021swin}
+\citation{yu2024mambaout}
+\citation{vasu2023fastvit}
+\citation{wang2024repvit}
+\citation{cai2023efficientvit}
+\citation{brody2022gat}
+\citation{velickovic2018graph}
+\citation{han2022vision}
+\citation{he2016deep}
+\citation{tan2021efficientnetv2}
+\citation{liu2022convnext}
+\citation{dosovitskiy2020image}
+\citation{liu2021swin}
+\citation{yu2024mambaout}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}General Vision Benchmark: Tiny ImageNet}{17}{subsection.5.4}\protected@file@percent }
+\newlabel{sec:tiny_imagenet}{{5.4}{17}{General Vision Benchmark: Tiny ImageNet}{subsection.5.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces Architectural validation on Tiny ImageNet (200 classes, 110,000 images) using 5-Fold CV and training from scratch at $64 \times 64$ resolution.}}{17}{table.13}\protected@file@percent }
+\newlabel{tab:tiny_imagenet}{{13}{17}{Architectural validation on Tiny ImageNet (200 classes, 110,000 images) using 5-Fold CV and training from scratch at $64 \times 64$ resolution}{table.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Cross-Dataset Synthesis}{17}{subsection.5.5}\protected@file@percent }
+\newlabel{sec:summary_plant}{{5.5}{17}{Cross-Dataset Synthesis}{subsection.5.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces Summary of classification accuracy (\%) across four plant-disease datasets using 5-Fold CV.}}{17}{table.14}\protected@file@percent }
+\newlabel{tab:summary_plant}{{14}{17}{Summary of classification accuracy (\%) across four plant-disease datasets using 5-Fold CV}{table.14}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6}Feature Space Manifold Projections with t-SNE}{17}{subsection.5.6}\protected@file@percent }
+\newlabel{sec:tsne_visualization}{{5.6}{17}{Feature Space Manifold Projections with t-SNE}{subsection.5.6}{}}
+\newlabel{fig:tsne_plantraw}{{8a}{18}{Subfigure 8a}{subfigure.8.1}{}}
+\newlabel{sub@fig:tsne_plantraw}{{(a)}{a}{Subfigure 8a\relax }{subfigure.8.1}{}}
+\newlabel{fig:tsne_riceleaf}{{8b}{18}{Subfigure 8b}{subfigure.8.2}{}}
+\newlabel{sub@fig:tsne_riceleaf}{{(b)}{b}{Subfigure 8b\relax }{subfigure.8.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Qualitative t-SNE projections of fold-0 penultimate-layer features on (a) PlantRaw and (b) Rice Leaf Disease V2.}}{18}{figure.8}\protected@file@percent }
+\newlabel{fig:tsne_combined}{{8}{18}{Qualitative t-SNE projections of fold-0 penultimate-layer features on (a) PlantRaw and (b) Rice Leaf Disease V2}{figure.8}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {PlantRaw (35 classes; 3,233 test images).}}}{18}{subfigure.8.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Rice Leaf Disease V2 (4 classes; 1,187 test images).}}}{18}{subfigure.8.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion and Explainability}{18}{section.6}\protected@file@percent }
+\newlabel{sec:discussion}{{6}{18}{Discussion and Explainability}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Efficacy of Edge-Difference Multi-Head Attention}{18}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Visual Interpretability in Graph Feature Space}{19}{subsection.6.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Query-key cosine-similarity visualization from Grapher block~1 of the ViGATs fold-4 checkpoint on Rice Blast (top) and Bacterial Blight (bottom).}}{19}{figure.9}\protected@file@percent }
+\newlabel{fig:graph_neighborhood_riceleaf}{{9}{19}{Query-key cosine-similarity visualization from Grapher block~1 of the ViGATs fold-4 checkpoint on Rice Blast (top) and Bacterial Blight (bottom)}{figure.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Practical Deployment Potential and Limitations}{19}{subsection.6.3}\protected@file@percent }
+\citation{tongle2026plantraw}
+\bibstyle{tjit}
+\bibcite{atila2021plant}{{1}{2021}{{Atila et~al.}}{{}}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{20}{section.7}\protected@file@percent }
+\newlabel{sec:conclusion}{{7}{20}{Conclusion}{section.7}{}}
+\bibcite{batool2025compact}{{2}{2025}{{Batool et~al.}}{{}}}
+\bibcite{borhani2022deep}{{3}{2022}{{Borhani et~al.}}{{}}}
+\bibcite{brody2022gat}{{4}{2022}{{Brody et~al.}}{{}}}
+\bibcite{cai2023efficientvit}{{5}{2023}{{Cai et~al.}}{{}}}
+\bibcite{chen2021identification}{{6}{2021}{{Chen et~al.}}{{}}}
+\bibcite{daphal2022sugarcane}{{7}{2022}{{Daphal \& Koli}}{{}}}
+\bibcite{dosovitskiy2020image}{{8}{2021}{{Dosovitskiy et~al.}}{{}}}
+\bibcite{ferentinos2018deep}{{9}{2018}{{Ferentinos}}{{}}}
+\bibcite{gedik2025attentionvig}{{10}{2025}{{Gedik et~al.}}{{}}}
+\bibcite{getch2021wheat}{{11}{2021}{{Getch}}{{}}}
+\bibcite{han2022vision}{{12}{2022}{{Han et~al.}}{{}}}
+\bibcite{he2016deep}{{13}{2016}{{He et~al.}}{{}}}
+\bibcite{hendrycks2016gaussian}{{14}{2016}{{Hendrycks \& Gimpel}}{{}}}
+\bibcite{hughes2015plantvillage}{{15}{2015}{{Hughes \& Salath\'{e}}}{{}}}
+\bibcite{iiitdmj2024dataset}{{16}{2024}{{Thakur et~al.}}{{}}}
+\bibcite{ioffe2015batch}{{17}{2015}{{Ioffe \& Szegedy}}{{}}}
+\bibcite{khiem2026rebanet}{{18}{2026}{{Khiem et~al.}}{{}}}
+\bibcite{le2015tiny}{{19}{2015}{{Le \& Yang}}{{}}}
+\bibcite{lecun1998gradient}{{20}{1998}{{LeCun et~al.}}{{}}}
+\bibcite{lecun2015deep}{{21}{2015}{{LeCun et~al.}}{{}}}
+\bibcite{li2019deepgcns}{{22}{2019}{{Li et~al.}}{{}}}
+\bibcite{lin2013network}{{23}{2013}{{Lin et~al.}}{{}}}
+\bibcite{liu2021swin}{{24}{2021}{{Liu et~al.}}{{}}}
+\bibcite{liu2022convnext}{{25}{2022}{{Liu et~al.}}{{}}}
+\bibcite{mduma2023maize}{{26}{2023}{{Mduma \& Mayo}}{{}}}
+\bibcite{mishra2023soybean}{{27}{2023}{{Mishra}}{{}}}
+\bibcite{mohanty2016using}{{28}{2016}{{Mohanty et~al.}}{{}}}
+\bibcite{munir2023mobilevig}{{29}{2023}{{Munir et~al.}}{{}}}
+\bibcite{mwebaze2019icassava}{{30}{2019}{{Mwebaze et~al.}}{{}}}
+\bibcite{nagarathna2025intelligent}{{31}{2025}{{Nagarathna et~al.}}{{}}}
+\bibcite{negm2021cucumber}{{32}{2021}{{Negm}}{{}}}
+\bibcite{prajapati2017rice}{{33}{2017}{{Prajapati et~al.}}{{}}}
+\bibcite{prakoso2021chili}{{34}{2021}{{Prakoso}}{{}}}
+\bibcite{rice_dataset2022}{{35}{2024}{{Sethy}}{{}}}
+\bibcite{savary2019global}{{36}{2019}{{Savary et~al.}}{{}}}
+\bibcite{scarselli2009graph}{{37}{2009}{{Scarselli et~al.}}{{}}}
+\bibcite{sethy2020deep}{{38}{2020}{{Sethy et~al.}}{{}}}
+\bibcite{singh2020plantdoc}{{39}{2020}{{Singh et~al.}}{{}}}
+\bibcite{singh2024comprehensive}{{40}{2024}{{Singh et~al.}}{{}}}
+\bibcite{singla2025denseswingnnnet}{{41}{2025}{{Singla et~al.}}{{}}}
+\bibcite{sokolova2009systematic}{{42}{2009}{{Sokolova \& Lapalme}}{{}}}
+\bibcite{surekha2026adjleafgnn}{{43}{2026}{{Surekha \& Subha~Mastan~Rao}}{{}}}
+\bibcite{tan2019efficientnet}{{44}{2019}{{Tan \& Le}}{{}}}
+\bibcite{tan2021efficientnetv2}{{45}{2021}{{Tan \& Le}}{{}}}
+\bibcite{thakur2022vision}{{46}{2023}{{Thakur et~al.}}{{}}}
+\bibcite{tongle2026plantraw}{{47}{2026}{{Tong-Le et~al.}}{{}}}
+\bibcite{too2019comparative}{{48}{2019}{{Too et~al.}}{{}}}
+\bibcite{touvron2021training}{{49}{2021}{{Touvron et~al.}}{{}}}
+\bibcite{van2008visualizing}{{50}{2008}{{van der Maaten \& Hinton}}{{}}}
+\bibcite{vasu2023fastvit}{{51}{2023}{{Vasu et~al.}}{{}}}
+\bibcite{vaswani2017attention}{{52}{2017}{{Vaswani et~al.}}{{}}}
+\bibcite{velickovic2018graph}{{53}{2018}{{Veli\v {c}kovi\'{c} et~al.}}{{}}}
+\bibcite{vo2026resnetkan}{{54}{2026}{{Vo et~al.}}{{}}}
+\bibcite{wang2019dynamic}{{55}{2019}{{Wang et~al.}}{{}}}
+\bibcite{wang2024repvit}{{56}{2024}{{Wang et~al.}}{{}}}
+\bibcite{wu2020comprehensive}{{57}{2021}{{Wu et~al.}}{{}}}
+\bibcite{yoseph2023coffee}{{58}{2023}{{Yoseph}}{{}}}
+\bibcite{yu2024mambaout}{{59}{2024}{{Yu et~al.}}{{}}}
+\bibcite{yu2025stcfi}{{60}{2025}{{Yu et~al.}}{{}}}
+\bibcite{zhang2023dive}{{61}{2023}{{Zhang et~al.}}{{}}}
+\bibcite{zhou2020graph}{{62}{2020}{{Zhou et~al.}}{{}}}
+\gdef \@abspage@last{23}

@@ -1,0 +1,838 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.23)  29 AUG 2026 08:40
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./paper_ViGATs_JIT_Revised_Clean.tex
+(paper_ViGATs_JIT_Revised_Clean.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-03-20>
+(interact.cls
+Document Class: interact 2017/07/31 v1.05 Interact LaTeX document class
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen150
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen151
+))
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen152
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count283
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count284
+\leftroot@=\count285
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count286
+\DOTSCASE@=\count287
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen153
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count288
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count289
+\dotsspace@=\muskip17
+\c@parentequation=\count290
+\dspbrk@lvl=\count291
+\tag@help=\toks18
+\row@=\count292
+\column@=\count293
+\maxfields@=\count294
+\andhelp@=\toks19
+\eqnshift@=\dimen154
+\alignsep@=\dimen155
+\tagshift@=\dimen156
+\tagwidth@=\dimen157
+\totwidth@=\dimen158
+\lineht@=\dimen159
+\@envbody=\toks20
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks22
+\thm@bodyfont=\toks23
+\thm@headfont=\toks24
+\thm@notefont=\toks25
+\thm@headpunct=\toks26
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks27
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen160
+\lightrulewidth=\dimen161
+\cmidrulewidth=\dimen162
+\belowrulesep=\dimen163
+\belowbottomsep=\dimen164
+\aboverulesep=\dimen165
+\abovetopsep=\dimen166
+\cmidrulesep=\dimen167
+\cmidrulekern=\dimen168
+\defaultaddspace=\dimen169
+\@cmidla=\count295
+\@cmidlb=\count296
+\@aboverulesep=\dimen170
+\@belowrulesep=\dimen171
+\@thisruleclass=\count297
+\@lastruleclass=\count298
+\@thisrulewidth=\dimen172
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\epsfig.sty
+Package: epsfig 2024/01/14 v1.7b (e)psfig emulation (SPQR)
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks28
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen173
+\Gin@req@width=\dimen174
+)
+\epsfxsize=\dimen175
+\epsfysize=\dimen176
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2025/01/14 v2.16e rotated objects in LaTeX
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count299
+\rotFPtop=\skip57
+\rotFPbot=\skip58
+\rot@float@box=\box55
+\rot@mess@toks=\toks29
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count300
+\Gm@cntv=\count301
+\c@Gm@tempcnt=\count302
+\Gm@bindingoffset=\dimen177
+\Gm@wd@mp=\dimen178
+\Gm@odd@mp=\dimen179
+\Gm@even@mp=\dimen180
+\Gm@layoutwidth=\dimen181
+\Gm@layoutheight=\dimen182
+\Gm@layouthoffset=\dimen183
+\Gm@layoutvoffset=\dimen184
+\Gm@dimlist=\toks30
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+\c@mv@upright=\count303
+\c@mv@boldupright=\count304
+LaTeX Font Info:    Overwriting symbol font `letters' in version `upright'
+(Font)                  OML/cmm/m/it --> OML/eur/m/n on input line 163.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `boldupright'
+(Font)                  OML/cmm/m/it --> OML/eur/b/n on input line 164.
+\LabelSep=\dimen185
+\TopSep=\skip59
+\figheight=\dimen186
+\figwidth=\dimen187
+\tabledim=\dimen188
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf.s
+ty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen189
+\captionmargin=\dimen190
+\caption@leftmargin=\dimen191
+\caption@rightmargin=\dimen192
+\caption@width=\dimen193
+\caption@indent=\dimen194
+\caption@parindent=\dimen195
+\caption@hangindent=\dimen196
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \FigName \@captype
+ \vskip \abovecaptionskip \setbox \@tempboxa \hbox {\figcaptionfont {\fignumfon
+t #1}\hskip 4pt#2}\ifdim \wd \@tempboxa >\hsize {\figcaptionfont \noindent {\fi
+gnumfont #1}\hskip 7pt\ignorespaces #2\par }\else \global \@minipagefalse \hb@x
+t@ \hsize {\hfil \box \@tempboxa \hfil }\fi \else {\tablecaptionfont {\tablenum
+font #1}\hskip 7pt\ignorespaces {#2}\par }\vskip \belowcaptionskip \fi  on inpu
+t line 1175.
+)
+\c@KVtest=\count305
+\sf@farskip=\skip60
+\sf@captopadj=\dimen197
+\sf@capskip=\skip61
+\sf@nearskip=\skip62
+\c@subfigure=\count306
+\c@subfigure@save=\count307
+\c@lofdepth=\count308
+\c@subtable=\count309
+\c@subtable@save=\count310
+\c@lotdepth=\count311
+\sf@top=\skip63
+\sf@bottom=\skip64
+)
+(natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip65
+\bibsep=\skip66
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count312
+)
+\c@theorem=\count313
+\c@remark=\count314
+\c@notation=\count315
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip67
+\multirow@cntb=\count316
+\multirow@dima=\skip68
+\bigstrutjot=\dimen198
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count317
+\float@exts=\toks31
+\float@box=\box56
+\@float@everytoks=\toks32
+\@floatcapt=\box57
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithm.st
+y
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+\@float@every@algorithm=\toks33
+\c@algorithm=\count318
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudoc
+ode.sty
+Package: algpseudocode 
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algorithmi
+cx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count319
+\c@ALG@rem=\count320
+\c@ALG@nested=\count321
+\ALG@tlm=\skip69
+\ALG@thistlm=\skip70
+\c@ALG@Lnr=\count322
+\c@ALG@blocknr=\count323
+\c@ALG@storecount=\count324
+\c@ALG@tmpcounter=\count325
+\ALG@tmplength=\skip71
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2026-04-24 v7.01q Hypertext links for LaTeX
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count326
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count327
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen199
+\Hy@linkcounter=\count328
+\Hy@pagecounter=\count329
+ (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count330
+ (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2026-04-24 v7.01q Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4199.
+Package hyperref Info: Link nesting OFF on input line 4204.
+Package hyperref Info: Hyper index ON on input line 4207.
+Package hyperref Info: Plain pages OFF on input line 4214.
+Package hyperref Info: Backreferencing OFF on input line 4219.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4466.
+\c@Hy@tempcnt=\count331
+LaTeX Info: Redefining \url on input line 4805.
+\XeTeXLinkMargin=\dimen256
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count332
+\Field@Width=\dimen257
+\Fld@charsize=\dimen258
+Package hyperref Info: Hyper figures OFF on input line 6091.
+Package hyperref Info: Link nesting OFF on input line 6096.
+Package hyperref Info: Hyper index ON on input line 6099.
+Package hyperref Info: backreferencing OFF on input line 6106.
+Package hyperref Info: Link coloring OFF on input line 6111.
+Package hyperref Info: Link coloring with OCG OFF on input line 6116.
+Package hyperref Info: PDF/A mode OFF on input line 6121.
+\Hy@abspage=\count333
+\c@Item=\count334
+\c@Hfootnote=\count335
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2026-04-24 v7.01q Hyperref driver for pdfTeX
+\Fld@listcount=\count336
+\c@bookmark@seq@number=\count337
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip72
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+Package hyperref Info: Option `unicode' set `true' on input line 52.
+Package hyperref Info: Option `unicode' set `true' on input line 52.
+Package hyperref Info: Option `breaklinks' set `true' on input line 52.
+Package hyperref Info: Option `colorlinks' set `true' on input line 52.
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count338
+) (paper_ViGATs_JIT_Revised_Clean.aux)
+\openout1 = `paper_ViGATs_JIT_Revised_Clean.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count339
+\scratchdimen=\dimen259
+\scratchbox=\box58
+\nofMPsegments=\count340
+\nofMParguments=\count341
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count342
+\MPscratchDim=\dimen260
+\MPnumerator=\count343
+\makeMPintoPDFobject=\count344
+\everyMPtoPDFconversion=\toks35
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(94.75394pt, 408.0pt, 94.75394pt)
+* v-part:(T,H,B)=(78.01874pt, 650.0pt, 117.0281pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=408.0pt
+* \textheight=650.0pt
+* \oddsidemargin=22.48395pt
+* \evensidemargin=22.48395pt
+* \topmargin=-31.25125pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=12.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring ON on input line 55.
+(paper_ViGATs_JIT_Revised_Clean.out) (paper_ViGATs_JIT_Revised_Clean.out)
+\@outlinefile=\write3
+\openout3 = `paper_ViGATs_JIT_Revised_Clean.out'.
+
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 67.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <13> not available
+(Font)              size <12> substituted on input line 67.
+
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 67.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 67.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
+(Font)              size <5> substituted on input line 67.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 67.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
+
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-pdfdoc.d
+ef
+File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
+) [1
+
+
+
+{C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+<figures/Figure_01_image_to_graph.pdf, id=168, 1176.1943pt x 359.54326pt>
+File: figures/Figure_01_image_to_graph.pdf Graphic file (type pdf)
+<use figures/Figure_01_image_to_graph.pdf>
+Package pdftex.def Info: figures/Figure_01_image_to_graph.pdf  used on input li
+ne 90.
+(pdftex.def)             Requested size: 408.0pt x 124.71735pt.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 97.
+
+[2 <./figures/Figure_01_image_to_graph.pdf>] [3]
+<figures/Figure_02_architecture.pdf, id=312, 606.52696pt x 327.53065pt>
+File: figures/Figure_02_architecture.pdf Graphic file (type pdf)
+<use figures/Figure_02_architecture.pdf>
+Package pdftex.def Info: figures/Figure_02_architecture.pdf  used on input line
+ 128.
+(pdftex.def)             Requested size: 408.0pt x 220.32898pt.
+<figures/Figure_03_vigats_framework.pdf, id=314, 1196.42981pt x 329.18983pt>
+File: figures/Figure_03_vigats_framework.pdf Graphic file (type pdf)
+<use figures/Figure_03_vigats_framework.pdf>
+Package pdftex.def Info: figures/Figure_03_vigats_framework.pdf  used on input 
+line 140.
+(pdftex.def)             Requested size: 408.0pt x 112.2596pt.
+ [4 <./figures/Figure_02_architecture.pdf> <./figures/Figure_03_vigats_framewor
+k.pdf>]
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.5> not available
+(Font)              size <5> substituted on input line 154.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 154.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 154.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 154.
+
+[5]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 221.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <5.5> not available
+(Font)              size <5> substituted on input line 231.
+
+[6]
+Underfull \hbox (badness 6220) in paragraph at lines 246--247
+[]\OT1/cmr/m/it/10.95 MRConv ([][]Han et al.[][], [][]2022[][]): \OT1/cmr/m/n/1
+0.95 Non-attentive max-i-mum pool-ing: $\OT1/cmr/bx/n/10.95 m[] \OT1/cmr/m/n/10
+.95 =
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 250--251
+[]\OT1/cmr/m/it/10.95 GATv2 ([][]Brody et al.[][], [][]2022[][]): \OT1/cmr/m/n/
+10.95 Dy-namic edge-concatenation at-ten-tion $\OML/cmm/m/it/10.95 e[] \OT1/cmr
+/m/n/10.95 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+[]\OT1/cmr/m/it/10.95 GATConv (Pro-posed): \OT1/cmr/m/n/10.95 Dy-namic edge-dif
+ference at-ten-tion $\OML/cmm/m/it/10.95 e[] \OT1/cmr/m/n/10.95 =
+ []
+
+[7]
+<figures/Figure_04_concrete_example_flowchart.pdf, id=511, 452.48047pt x 783.16
+59pt>
+File: figures/Figure_04_concrete_example_flowchart.pdf Graphic file (type pdf)
+<use figures/Figure_04_concrete_example_flowchart.pdf>
+Package pdftex.def Info: figures/Figure_04_concrete_example_flowchart.pdf  used
+ on input line 316.
+(pdftex.def)             Requested size: 356.77902pt x 617.52316pt.
+ [8]
+Overfull \vbox (21.07872pt too high) has occurred while \output is active []
+
+
+[9 <./figures/Figure_04_concrete_example_flowchart.pdf>]
+<figures/Figure_05_plantraw_composition.pdf, id=692, 465.3828pt x 277.23294pt>
+File: figures/Figure_05_plantraw_composition.pdf Graphic file (type pdf)
+<use figures/Figure_05_plantraw_composition.pdf>
+Package pdftex.def Info: figures/Figure_05_plantraw_composition.pdf  used on in
+put line 396.
+(pdftex.def)             Requested size: 408.0pt x 243.052pt.
+ [10]
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+[]\OT1/cmr/m/n/8 Auto-optimized by VRAM
+ []
+
+
+Underfull \hbox (badness 3049) in paragraph at lines 420--420
+[]\OT1/cmr/m/n/8 Max 100 epochs; Early stop-ping on
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 420--420
+[]\OT1/cmr/m/n/8 Standard FP32 pre-ci-sion for re-main-ing
+ []
+
+[11 <./figures/Figure_05_plantraw_composition.pdf>]
+Overfull \hbox (1.30019pt too wide) in paragraph at lines 472--472
+[][]| 
+ []
+
+[12
+pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.480 \begin{equation}
+                      ] [13] [14]
+Underfull \hbox (badness 1087) in paragraph at lines 616--617
+[]\OT1/cmr/m/n/10.95 Figure [][]6[][] dis-plays op-ti-miza-tion and val-i-da-ti
+on tra-jec-to-ries across mod-els on
+ []
+
+<figures/Figure_06_plantraw_curves.pdf, id=867, 1004.34756pt x 736.00471pt>
+File: figures/Figure_06_plantraw_curves.pdf Graphic file (type pdf)
+<use figures/Figure_06_plantraw_curves.pdf>
+Package pdftex.def Info: figures/Figure_06_plantraw_curves.pdf  used on input l
+ine 620.
+(pdftex.def)             Requested size: 408.0pt x 298.98994pt.
+[15 <./figures/Figure_06_plantraw_curves.pdf>]
+<figures/Figure_07_iiitdmj_confusion_matrices.pdf, id=981, 907.40648pt x 851.16
+64pt>
+File: figures/Figure_07_iiitdmj_confusion_matrices.pdf Graphic file (type pdf)
+<use figures/Figure_07_iiitdmj_confusion_matrices.pdf>
+Package pdftex.def Info: figures/Figure_07_iiitdmj_confusion_matrices.pdf  used
+ on input line 657.
+(pdftex.def)             Requested size: 408.0pt x 382.72263pt.
+ [16 <./figures/Figure_07_iiitdmj_confusion_matrices.pdf>]
+<figures/Figure_08a_tsne_plantraw.pdf, id=1161, 1698.345pt x 678.44617pt>
+File: figures/Figure_08a_tsne_plantraw.pdf Graphic file (type pdf)
+<use figures/Figure_08a_tsne_plantraw.pdf>
+Package pdftex.def Info: figures/Figure_08a_tsne_plantraw.pdf  used on input li
+ne 725.
+(pdftex.def)             Requested size: 408.0pt x 162.98569pt.
+<figures/Figure_08b_tsne_riceleaf.pdf, id=1162, 1582.71304pt x 654.7248pt>
+File: figures/Figure_08b_tsne_riceleaf.pdf Graphic file (type pdf)
+<use figures/Figure_08b_tsne_riceleaf.pdf>
+Package pdftex.def Info: figures/Figure_08b_tsne_riceleaf.pdf  used on input li
+ne 730.
+(pdftex.def)             Requested size: 408.0pt x 168.77583pt.
+ [17]
+<figures/Figure_09_graph_neighborhood_riceleaf.pdf, id=1170, 483.96617pt x 453.
+6388pt>
+File: figures/Figure_09_graph_neighborhood_riceleaf.pdf Graphic file (type pdf)
+
+<use figures/Figure_09_graph_neighborhood_riceleaf.pdf>
+Package pdftex.def Info: figures/Figure_09_graph_neighborhood_riceleaf.pdf  use
+d on input line 751.
+(pdftex.def)             Requested size: 334.56299pt x 313.61331pt.
+ [18 <./figures/Figure_08a_tsne_plantraw.pdf> <./figures/Figure_08b_tsne_ricele
+af.pdf>] [19 <./figures/Figure_09_graph_neighborhood_riceleaf.pdf>]
+
+LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 789.
+
+[20] [21]
+Underfull \hbox (badness 3815) in paragraph at lines 890--891
+[]\OT1/cmr/m/n/10 Negm, K. (2021). Cu-cum-ber plant dis-eases dataset [Data set
+]. \OT1/cmr/m/it/10 Kag-gle\OT1/cmr/m/n/10 . [][]$\OT1/cmtt/m/n/10 https : / /
+ []
+
+[22] [23] (paper_ViGATs_JIT_Revised_Clean.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-03-20>
+ ***********
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+Package rerunfilecheck Info: File `paper_ViGATs_JIT_Revised_Clean.out' has not 
+changed.
+(rerunfilecheck)             Checksum: 1B898589726076B2975526F3F4FC93A3;2976.
+ ) 
+Here is how much of TeX's memory you used:
+ 13990 strings out of 467691
+ 223071 string characters out of 5414987
+ 673262 words of memory out of 5000000
+ 42690 multiletter control sequences out of 15000+600000
+ 644273 words of font info for 103 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 87i,15n,93p,1675b,661s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmbx10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmbx8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/Admin/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Admin/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Admin/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Users/
+Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.p
+fb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmmi10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmmi12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmmi5.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Admin/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Admin/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Admin/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Admin/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/User
+s/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib
+8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmr12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmr5.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Admin/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Admin/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Admin/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Admin/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Ad
+min/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/
+Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmsy9.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmti10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmti8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/Admin/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Admin/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/Admin/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/A
+dmin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.p
+fb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/sy
+mbols/msbm7.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
+imes/utmr8a.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
+imes/utmri8a.pfb>
+Output written on paper_ViGATs_JIT_Revised_Clean.pdf (23 pages, 3727688 bytes).
+
+PDF statistics:
+ 1947 PDF objects out of 2073 (max. 8388607)
+ 163 named destinations out of 1000 (max. 500000)
+ 315 words of extra memory for PDF output out of 10000 (max. 10000000)
+
