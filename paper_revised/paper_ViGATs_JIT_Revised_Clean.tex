@@ -760,7 +760,10 @@ Figure~\ref{fig:graph_neighborhood_riceleaf} visualizes query-key cosine similar
 \end{itemize}
 
 \subsection{Practical Deployment Potential and Limitations}
-Operating at $64 \times 64$ resolution enables real-time edge processing on modest hardware platforms. While ViGATs achieves a throughput of 74 FPS on modern GPUs (suitable for drone and robotic video feeds), its inference latency is slightly higher than standard CNNs (such as ResNet-18) due to dynamic $K$-NN neighbor retrieval. Future optimizations exploring approximate nearest neighbor search and TensorRT engine compilation will further accelerate throughput.
+
+Operating at $64\times64$ resolution enables real-time edge processing on modest hardware platforms. Although standard residual CNNs (e.g., ResNet-18) achieve higher raw inference throughput (439.9 FPS) due to static, localized grid convolutions, their rigid receptive fields suffer severe accuracy degradation under complex natural field noise and scattered lesions (dropping to 79.64\% on PlantRaw). In contrast, ViGATs maintains a real-time throughput of 74.0 FPS (well exceeding the standard 30 FPS threshold required for real-time robotic and UAV video feeds) while delivering a significant +6.48\% accuracy improvement on unconstrained field benchmarks (86.12\%) with only 129.8 MB peak VRAM. This demonstrates an optimal, deployment-ready trade-off between botanical diagnostic accuracy and edge computational throughput.
+
+While this study strictly adopts a $64\times64$ input resolution to faithfully emulate resource-constrained edge IoT sensor nodes and low-bandwidth UAV platforms under a train-from-scratch setting, the isotropic GATConv architecture is fundamentally resolution-agnostic. In cloud-based or high-performance computing (HPC) deployment scenarios, processing higher-resolution inputs ($224\times224$ or $384\times384$) can capture finer micro-pathological textures. To alleviate the computational overhead of dynamic graph construction at larger token counts ($N$), hierarchical patch merging, local windowed graph partitions, or approximate nearest neighbor (ANN) search algorithms can be naturally integrated as a promising direction for future research.
 
 
 \section{Conclusion}
