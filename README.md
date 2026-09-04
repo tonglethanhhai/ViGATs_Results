@@ -77,3 +77,9 @@ The notebook contains:
 ## 🔒 Citation & Licensing
 
 *This code and artifact bundle is currently under double-blind peer review. Formal bibliographic information and a permissive open-source license (MIT) will be added upon final manuscript acceptance.*
+
+---
+
+## 🌐 Visitors
+
+[![Flag Counter](https://s01.flagcounter.com/count/S2qz/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_18/viewers_3/labels_1/pageviews_1/flags_0/percent_0/)](https://info.flagcounter.com/S2qz)
